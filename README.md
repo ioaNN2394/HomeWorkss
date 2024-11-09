@@ -1,8 +1,7 @@
-# React + Vite
+# A tener en cuenta
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Para este challenge se uso supabase, por ende, sera necesario instalar esto en el proyecto
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# COMANDO PARA INSTALA SUPABASE
+npm install @supabase/supabase-js
+npm install @supabase/supabase-js@latest
