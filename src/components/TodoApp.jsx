@@ -6,7 +6,9 @@ import TodoForm from './TodoForm';
 import TodoItem from './TodoItem';
 import styles from './styles/TodoApp.module.css';
 
-const TodoApp = () => {
+
+
+export const TodoApp = () => {
   const todos = useSelector((state) => state.todos.todos);
 
   return (
