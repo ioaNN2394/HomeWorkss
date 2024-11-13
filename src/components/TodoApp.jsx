@@ -19,7 +19,7 @@ const TodoApp = () => {
 
   return (
     <div className={styles.todoContainer}>
-      <h2 className={styles.title}>Aplicación de ToDo con Redux</h2>
+      <h2 className={styles.title}>ToDo</h2>
       
       {/* Mostrar los contadores */}
       <div className={styles.counters}>
