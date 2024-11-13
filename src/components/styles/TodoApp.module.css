@@ -22,3 +22,12 @@
     margin-top: 20px;
   }
   
+
+
+.counters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #4a5568;
+}
