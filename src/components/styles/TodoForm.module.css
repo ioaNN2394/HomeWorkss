@@ -1,0 +1,37 @@
+/* components/styles/TodoForm.module.css */
+
+.form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 2px solid #3b82f6;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input:focus {
+    border-color: #1f2937;
+  }
+  
+  .button {
+    padding: 12px 25px;
+    background-color: #3b82f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  .button:hover {
+    background-color: #1e40af;
+    transform: translateY(-2px);
+  }
+  

@@ -1,0 +1,47 @@
+/* components/styles/TodoItem.module.css */
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .item:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .text {
+    flex: 1;
+    cursor: pointer;
+    font-size: 16px;
+    color: #1f2937;
+    transition: color 0.3s ease;
+  }
+  
+  .textCompleted {
+    text-decoration: line-through;
+    color: #9ca3af;
+  }
+  
+  .deleteButton {
+    background-color: #ef4444;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  .deleteButton:hover {
+    background-color: #dc2626;
+    transform: translateY(-1px);
+  }
+  

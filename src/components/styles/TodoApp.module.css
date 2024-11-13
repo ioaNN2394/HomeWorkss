@@ -1,0 +1,25 @@
+/* components/styles/TodoApp.module.css */
+
+.todoContainer {
+    background: linear-gradient(135deg, #ffffff, #f3f4f6);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    max-width: 500px;
+    margin: 40px auto;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #1f2937;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .todoList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,68 @@
+/* components/styles/Navbar.module.css */
+
+.navbar {
+    width: 100%;
+    background-color: #2d3748; /* Gris oscuro moderno */
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fijo en la parte superior */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {}
+  
+  .navLink {
+    color: #e2e8f0;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .navLink::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #38b2ac; /* Verde agua */
+    transition: width 0.3s;
+    margin-top: 5px;
+  }
+  
+  .navLink:hover {
+    color: #38b2ac;
+  }
+  
+  .navLink:hover::after {
+    width: 100%;
+  }
+  
+  .active {
+    color: #38b2ac;
+  }
+  
+  .active::after {
+    width: 100%;
+  }
+  
