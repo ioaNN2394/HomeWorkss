@@ -7,7 +7,7 @@ import TodoApp from './components/TodoApp';
 import PokemonApp from './components/PokemonApp';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import './App.css'; // Puedes agregar estilos globales si lo deseas
+import './App.css';
 
 const App = () => {
   return (
