@@ -1,10 +1,9 @@
-// store/localStorage.js
 
 export const loadState = () => {
     try {
       const serializedState = localStorage.getItem('todoState');
       if (serializedState === null) {
-        return undefined; // Retorna undefined para usar el estado inicial del slice
+        return undefined;
       }
       return JSON.parse(serializedState);
     } catch (err) {

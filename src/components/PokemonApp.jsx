@@ -1,4 +1,3 @@
-// components/PokemonApp.jsx
 
 import React, { useState } from 'react';
 import { useGetPokemonByNameQuery } from '../store/api/pokemonApi';

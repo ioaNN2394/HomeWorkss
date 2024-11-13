@@ -1,4 +1,3 @@
-/* components/styles/Navbar.module.css */
 
 .navbar {
     width: 100%;
@@ -29,7 +28,7 @@
     padding: 0;
   }
   
-  .navItem {}
+
   
   .navLink {
     color: #e2e8f0;
